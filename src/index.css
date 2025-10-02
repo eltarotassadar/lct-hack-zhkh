@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+.container {
+    grid-template-areas:
+    "DataBlock1 MAP MAP MAP MAP"
+    "DataBlock1 MAP MAP MAP MAP"
+    "DataBlock2 MAP MAP MAP MAP"
+    "DataBlock2 MAP MAP MAP MAP"
+    "DataBlock2 TimeGraphs TimeGraphs TimeGraphs TimeGraphs"
+    "DataBlock2 TimeGraphs TimeGraphs TimeGraphs TimeGraphs"
+    "DataBlock2 TimeGraphs TimeGraphs TimeGraphs TimeGraphs";
+}
+
+.MAP { grid-area: MAP; }
+
+.TimeGraphs { grid-area: TimeGraphs; }
+
+.CurrentWeather { grid-area: CurrentWeather; }
+
+.DataBlock1 { grid-area: DataBlock1; }
+
+.DataBlock2 { grid-area: DataBlock2; }
+
+
