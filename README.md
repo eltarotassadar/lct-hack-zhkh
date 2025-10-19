@@ -80,7 +80,6 @@ python scripts/run_training.py --config configs/train.yaml
 ```
 
 ## Дополнительные материалы
-- [docs/domain-migration.md](./docs/domain-migration.md) — карта переименований Agrohack → Mosvodokanal.
 - [backend/README.md](./backend/README.md) — описание API, маршрутов и расчётов.
 
 ## План развития
