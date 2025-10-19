@@ -1,0 +1,3 @@
+anomaly_id,date,mkd_id,mkd_address,itp_id,odpu_id,district,status,comment,updated_at
+05ebcd8d047f,2024-01-31,MKD-001,"г. Москва, ул. Пушкина, д. 10",ITP-101,ODPU-501,ЦАО,confirmed,,2025-10-19T19:29:42Z
+33791710612b,2024-02-29,MKD-001,"г. Москва, ул. Пушкина, д. 10",ITP-101,ODPU-501,ЦАО,dismissed,,2025-10-19T19:29:43Z

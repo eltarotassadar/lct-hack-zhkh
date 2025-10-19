@@ -1,0 +1,10 @@
+telemetry_path: data/telemetry.parquet
+weather_path: data/weather_features.parquet
+run_id: demo
+outputs:
+  model: models/catboost_demo.cbm
+  metrics: reports/training_metrics_demo.json
+  notebook: reports/training_run_demo.ipynb
+time_range:
+  start: 2023-01-01
+  end: 2023-12-31

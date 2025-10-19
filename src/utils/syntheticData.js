@@ -1,5 +1,6 @@
 import * as h3 from 'h3-js';
 import { monitoringProfiles } from '../domain/monitoringProfiles';
+import { districtLookup } from '../domain/territories';
 
 const allMonitoringNodes = Object.keys(monitoringProfiles).sort();
 
@@ -40,29 +41,36 @@ export function createSyntheticHexagonSummary(cellId, year) {
 
   const center = h3.cellToLatLng(cellId);
   const boundary = h3.cellToBoundary(cellId);
+  const districtMeta = districtLookup[cellId];
 
   const flowRate = 45 + rand() * 160; // m3/h
-  const pressure = 4.8 + rand() * 1.9; // bar
+  const pressure = 4.2 + rand() * 1.5; // bar
   const leakProbability = clamp(0.12 + rand() * 0.55, 0.05, 0.8);
-  const maintenanceScore = 0.85 + rand() * 0.25;
+  const maintenanceScore = 0.74 + rand() * 0.25;
 
   const baseRisk = 92 + rand() * 48 + leakProbability * 55;
   const peakDeviation = baseRisk + rand() * 18;
+  const balanceIndex = clamp(100 - (baseRisk - 90) * 0.4, 35, 100);
+  const peakBalance = clamp(100 - (peakDeviation - 90) * 0.45, 30, 100);
+  const supplyRatio = clamp(0.9 + rand() * 0.18, 0.82, 1.18);
 
   const advisories = [];
   if (baseRisk > 135) {
-    advisories.push('Нужна экстренная проверка ИТП и УУ — согласовать команду реагирования.');
-    advisories.push('Сформировать акт по подозрению на несанкционированный отбор ресурса.');
+    advisories.push('Требуется срочная проверка ИТП и узла учёта — направьте аварийную бригаду.');
+    advisories.push('Подготовьте акт о предполагаемом несанкционированном потреблении.');
   } else if (baseRisk > 115) {
-    advisories.push('Запросить уточненные показания с резервных датчиков и проверить связь УСПД.');
-    advisories.push('Подготовить бригаду для выборочного обхода стояков в течение суток.');
+    advisories.push('Запросите показания с резервных датчиков и проверьте связь с ПТК.');
+    advisories.push('Подготовьте бригаду для выборочного обхода стояков в течение 24 часов.');
   } else if (baseRisk > 100) {
-    advisories.push('Зафиксировать тенденцию в журнале смены и продолжить мониторинг каждые 6 часов.');
+    advisories.push(
+      'Зафиксируйте тренд в журнале смены и продолжайте контроль каждые шесть часов.',
+    );
   } else {
-    advisories.push('Сценарий в норме, оставить автоматическое наблюдение.');
+    advisories.push('Сценарий в норме — поддерживайте автоматический мониторинг.');
   }
 
-  const status = baseRisk > 135 ? 'critical' : baseRisk >= 115 ? 'alert' : baseRisk >= 100 ? 'watch' : 'stable';
+  const status =
+    baseRisk > 135 ? 'critical' : baseRisk >= 115 ? 'alert' : baseRisk >= 100 ? 'watch' : 'stable';
 
   return {
     cellId,
@@ -70,23 +78,28 @@ export function createSyntheticHexagonSummary(cellId, year) {
     boundary,
     riskIndex: Number(baseRisk.toFixed(2)),
     maxRisk: Number(peakDeviation.toFixed(2)),
-    yield: Number(flowRate.toFixed(2)),
-    maxYield: Number((flowRate * (1 + leakProbability * 0.4)).toFixed(2)),
-    score: Number((maintenanceScore * 100).toFixed(2)),
+    balanceIndex: Number(balanceIndex.toFixed(2)),
+    peakBalance: Number(peakBalance.toFixed(2)),
+    maintenanceScore: Number((maintenanceScore * 100).toFixed(2)),
     leakProbability: Number((leakProbability * 100).toFixed(1)),
     flowRate: Number(flowRate.toFixed(1)),
     pressure: Number(pressure.toFixed(2)),
+    supplyRatio: Number(supplyRatio.toFixed(3)),
     dataset: 'synthetic',
     status,
     advisories,
     updatedAt: new Date().toISOString(),
+    districtKey: districtMeta?.key ?? null,
+    districtLabel: districtMeta?.label ?? null,
   };
 }
 
 function createTelemetrySeries(cellId, year, startTimestamp) {
   const hours = 24 * 7;
   const start = new Date(startTimestamp);
-  const telemetrySeed = stringToSeed(`${cellId}-${year}-${start.getFullYear()}-${start.getMonth()}-${start.getDate()}`);
+  const telemetrySeed = stringToSeed(
+    `${cellId}-${year}-${start.getFullYear()}-${start.getMonth()}-${start.getDate()}`,
+  );
   const rand = mulberry32(telemetrySeed);
 
   const labels = [];
@@ -112,7 +125,12 @@ function createTelemetrySeries(cellId, year, startTimestamp) {
     const soilM = clamp(48 + seasonalCycle * 12 + (rand() - 0.5) * 20, 15, 95);
 
     const rainChance = rand();
-    const rainValue = rainChance > 0.88 ? clamp(rand() * 6.5, 0.2, 9.5) : rainChance > 0.75 ? clamp(rand() * 3.2, 0.1, 4) : 0;
+    const rainValue =
+      rainChance > 0.88
+        ? clamp(rand() * 6.5, 0.2, 9.5)
+        : rainChance > 0.75
+          ? clamp(rand() * 3.2, 0.1, 4)
+          : 0;
 
     temperature.push(Number(temp.toFixed(2)));
     humidity.push(Number(hum.toFixed(2)));
@@ -152,14 +170,34 @@ function createSyntheticForecasts(cellId, year, nodeIds = allMonitoringNodes) {
   return items;
 }
 
-export function createSyntheticBundle({ cellId, year, startTimestamp, nodeIds = allMonitoringNodes }) {
+export function createSyntheticBundle({
+  cellId,
+  year,
+  startTimestamp,
+  nodeIds = allMonitoringNodes,
+}) {
   const summary = createSyntheticHexagonSummary(cellId, year);
   const telemetry = createTelemetrySeries(cellId, year, startTimestamp);
   const forecasts = createSyntheticForecasts(cellId, year, nodeIds);
 
-  const averageRisk = forecasts.reduce((acc, item) => acc + item.riskScore, 0) / (forecasts.length || 1);
+  const averageRisk =
+    forecasts.reduce((acc, item) => acc + item.riskScore, 0) / (forecasts.length || 1);
   summary.riskIndex = Number(averageRisk.toFixed(2));
   summary.maxRisk = Number((forecasts[0]?.riskScore ?? summary.maxRisk).toFixed(2));
 
-  return { summary, telemetry, forecasts };
+  const analytics = {
+    mkdId: `SYN-${cellId.slice(-6).toUpperCase()}`,
+    mkdAddress: 'Синтетический адрес, Москва',
+    daysObserved: 90,
+    anomalyCount: Math.round((summary.leakProbability / 100) * 12),
+    anomalyRate: Number(summary.leakProbability.toFixed(2)),
+    averageDeviation: Number((100 - summary.balanceIndex).toFixed(2)),
+    maxDeviation: Number((100 - summary.peakBalance).toFixed(2)),
+    medianDeviation: Number(((100 - summary.balanceIndex) * 0.6).toFixed(2)),
+    supplyRatio: summary.supplyRatio,
+    recentMeasurements: [],
+    deviationSeries: [],
+  };
+
+  return { summary, telemetry, forecasts, analytics };
 }

@@ -1,0 +1,2956 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "buildings": {
+    "2023": [
+      {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 136.67,
+        "maxDeviation": 17.34,
+        "anomalyRate": 100.0,
+        "anomalyCount": 12,
+        "supplyRatio": 0.853,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 100.27,
+        "maxDeviation": 15.36,
+        "anomalyRate": 50.0,
+        "anomalyCount": 6,
+        "supplyRatio": 0.892,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 93.67,
+        "maxDeviation": 14.75,
+        "anomalyRate": 41.7,
+        "anomalyCount": 5,
+        "supplyRatio": 0.903,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      }
+    ],
+    "2024": [
+      {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 133.67,
+        "maxDeviation": 19.19,
+        "anomalyRate": 91.7,
+        "anomalyCount": 11,
+        "supplyRatio": 0.849,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 113.44,
+        "maxDeviation": 16.49,
+        "anomalyRate": 66.7,
+        "anomalyCount": 8,
+        "supplyRatio": 0.867,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 94.64,
+        "maxDeviation": 15.66,
+        "anomalyRate": 41.7,
+        "anomalyCount": 5,
+        "supplyRatio": 0.906,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      }
+    ],
+    "2025": [
+      {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 143.4,
+        "maxDeviation": 22.39,
+        "anomalyRate": 100.0,
+        "anomalyCount": 12,
+        "supplyRatio": 0.837,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 135.56,
+        "maxDeviation": 20.7,
+        "anomalyRate": 91.7,
+        "anomalyCount": 11,
+        "supplyRatio": 0.846,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 103.75,
+        "maxDeviation": 14.14,
+        "anomalyRate": 58.3,
+        "anomalyCount": 7,
+        "supplyRatio": 0.903,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      }
+    ]
+  },
+  "bundles": {
+    "MKD-001:2023": {
+      "summary": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 136.67,
+        "maxDeviation": 17.34,
+        "anomalyRate": 100.0,
+        "anomalyCount": 12,
+        "supplyRatio": 0.853,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1675123200000,
+          1677542400000,
+          1680220800000,
+          1682812800000,
+          1685491200000,
+          1688083200000,
+          1690761600000,
+          1693440000000,
+          1696032000000,
+          1698710400000,
+          1701302400000,
+          1703980800000
+        ],
+        "itpCold": [
+          119.86,
+          121.52,
+          125.49,
+          129.83,
+          125.3,
+          125.45,
+          118.78,
+          114.28,
+          109.44,
+          107.78,
+          112.42,
+          113.15
+        ],
+        "odpuHot": [
+          99.12,
+          105.11,
+          105.56,
+          105.73,
+          106.06,
+          101.18,
+          102.75,
+          104.76,
+          99.28,
+          89.87,
+          98.16,
+          97.06
+        ],
+        "deviationPercent": [
+          14.31,
+          16.9,
+          17.27,
+          17.34,
+          16.92,
+          16.43,
+          13.92,
+          11.81,
+          11.0,
+          14.64,
+          11.28,
+          13.05
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.87,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 85.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 14.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 16.7
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.79,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 85.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 27.7
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 0.4
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.74,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 85.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 13.7
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 23.0
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.68,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 85.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 24.2
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 11.6
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "itpId": "ITP-101",
+        "odpuId": "ODPU-501",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "anomalies": [
+          {
+            "id": "b589e6eaefe5",
+            "date": "2023-01-31T00:00:00",
+            "deviationPercent": 14.31,
+            "itpCold": 119.86,
+            "odpuHot": 99.12,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "b33e22ecaefc",
+            "date": "2023-02-28T00:00:00",
+            "deviationPercent": 16.9,
+            "itpCold": 121.52,
+            "odpuHot": 105.11,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "52df91c1d272",
+            "date": "2023-03-31T00:00:00",
+            "deviationPercent": 17.27,
+            "itpCold": 125.49,
+            "odpuHot": 105.56,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "caf018543271",
+            "date": "2023-04-30T00:00:00",
+            "deviationPercent": 17.34,
+            "itpCold": 129.83,
+            "odpuHot": 105.73,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "594ff208c7a1",
+            "date": "2023-05-31T00:00:00",
+            "deviationPercent": 16.92,
+            "itpCold": 125.3,
+            "odpuHot": 106.06,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "1a2dc1778ad0",
+            "date": "2023-06-30T00:00:00",
+            "deviationPercent": 16.43,
+            "itpCold": 125.45,
+            "odpuHot": 101.18,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "cd9594dccded",
+            "date": "2023-07-31T00:00:00",
+            "deviationPercent": 13.92,
+            "itpCold": 118.78,
+            "odpuHot": 102.75,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8bd10dc7cef4",
+            "date": "2023-08-31T00:00:00",
+            "deviationPercent": 11.81,
+            "itpCold": 114.28,
+            "odpuHot": 104.76,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "6f8bd5d2e352",
+            "date": "2023-09-30T00:00:00",
+            "deviationPercent": 11.0,
+            "itpCold": 109.44,
+            "odpuHot": 99.28,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "582e140cb67c",
+            "date": "2023-10-31T00:00:00",
+            "deviationPercent": 14.64,
+            "itpCold": 107.78,
+            "odpuHot": 89.87,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "565e4521bfc5",
+            "date": "2023-11-30T00:00:00",
+            "deviationPercent": 11.28,
+            "itpCold": 112.42,
+            "odpuHot": 98.16,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "6d6514558426",
+            "date": "2023-12-31T00:00:00",
+            "deviationPercent": 13.05,
+            "itpCold": 113.15,
+            "odpuHot": 97.06,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 100.0,
+        "medianDeviation": 14.5,
+        "averageDeviation": 14.6
+      }
+    },
+    "MKD-003:2023": {
+      "summary": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 100.27,
+        "maxDeviation": 15.36,
+        "anomalyRate": 50.0,
+        "anomalyCount": 6,
+        "supplyRatio": 0.892,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1675123200000,
+          1677542400000,
+          1680220800000,
+          1682812800000,
+          1685491200000,
+          1688083200000,
+          1690761600000,
+          1693440000000,
+          1696032000000,
+          1698710400000,
+          1701302400000,
+          1703980800000
+        ],
+        "itpCold": [
+          127.26,
+          134.58,
+          137.23,
+          133.11,
+          133.06,
+          134.57,
+          125.25,
+          122.26,
+          115.24,
+          112.6,
+          118.21,
+          120.75
+        ],
+        "odpuHot": [
+          115.02,
+          120.43,
+          120.89,
+          115.66,
+          109.72,
+          118.29,
+          108.27,
+          114.52,
+          108.69,
+          107.05,
+          102.02,
+          109.53
+        ],
+        "deviationPercent": [
+          12.1,
+          9.7,
+          13.33,
+          13.31,
+          15.36,
+          13.4,
+          12.47,
+          9.41,
+          6.08,
+          7.27,
+          9.92,
+          9.54
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.82,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.9
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 89.2
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 32.2
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 21.2
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.76,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.9
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 89.2
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 33.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 24.5
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.67,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.9
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 89.2
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 29.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 16.2
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.59,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.9
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 89.2
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 19.6
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 6.7
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "itpId": "ITP-303",
+        "odpuId": "ODPU-503",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "anomalies": [
+          {
+            "id": "69ae93e79cb8",
+            "date": "2023-01-31T00:00:00",
+            "deviationPercent": 12.1,
+            "itpCold": 127.26,
+            "odpuHot": 115.02,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "525e240a2d03",
+            "date": "2023-03-31T00:00:00",
+            "deviationPercent": 13.33,
+            "itpCold": 137.23,
+            "odpuHot": 120.89,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "612e9a295e48",
+            "date": "2023-04-30T00:00:00",
+            "deviationPercent": 13.31,
+            "itpCold": 133.11,
+            "odpuHot": 115.66,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "d6b8a8ed74d1",
+            "date": "2023-05-31T00:00:00",
+            "deviationPercent": 15.36,
+            "itpCold": 133.06,
+            "odpuHot": 109.72,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8b0e7ceb1fa2",
+            "date": "2023-06-30T00:00:00",
+            "deviationPercent": 13.4,
+            "itpCold": 134.57,
+            "odpuHot": 118.29,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "35529903c9c5",
+            "date": "2023-07-31T00:00:00",
+            "deviationPercent": 12.47,
+            "itpCold": 125.25,
+            "odpuHot": 108.27,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 50.0,
+        "medianDeviation": 11.0,
+        "averageDeviation": 11.0
+      }
+    },
+    "MKD-002:2023": {
+      "summary": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 93.67,
+        "maxDeviation": 14.75,
+        "anomalyRate": 41.7,
+        "anomalyCount": 5,
+        "supplyRatio": 0.903,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1675123200000,
+          1677542400000,
+          1680220800000,
+          1682812800000,
+          1685491200000,
+          1688083200000,
+          1690761600000,
+          1693440000000,
+          1696032000000,
+          1698710400000,
+          1701302400000,
+          1703980800000
+        ],
+        "itpCold": [
+          109.84,
+          110.67,
+          115.9,
+          117.63,
+          117.48,
+          110.8,
+          109.11,
+          106.94,
+          100.02,
+          98.6,
+          101.55,
+          104.58
+        ],
+        "odpuHot": [
+          99.2,
+          95.95,
+          99.28,
+          105.64,
+          100.53,
+          99.6,
+          99.38,
+          96.14,
+          95.14,
+          89.37,
+          98.59,
+          97.75
+        ],
+        "deviationPercent": [
+          8.94,
+          12.77,
+          14.75,
+          12.02,
+          11.24,
+          11.98,
+          7.73,
+          7.27,
+          6.04,
+          4.23,
+          3.92,
+          6.8
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.79,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 5.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 11.5
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 14.2
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.68,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 5.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 6.6
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 12.5
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.58,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 5.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 22.0
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 14.9
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.54,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 5.0
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 29.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 2.4
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "itpId": "ITP-202",
+        "odpuId": "ODPU-502",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "anomalies": [
+          {
+            "id": "235eac81bfe5",
+            "date": "2023-02-28T00:00:00",
+            "deviationPercent": 12.77,
+            "itpCold": 110.67,
+            "odpuHot": 95.95,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "5fc7071e437d",
+            "date": "2023-03-31T00:00:00",
+            "deviationPercent": 14.75,
+            "itpCold": 115.9,
+            "odpuHot": 99.28,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "e559e8dcfa50",
+            "date": "2023-04-30T00:00:00",
+            "deviationPercent": 12.02,
+            "itpCold": 117.63,
+            "odpuHot": 105.64,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "36d9e3a529e0",
+            "date": "2023-05-31T00:00:00",
+            "deviationPercent": 11.24,
+            "itpCold": 117.48,
+            "odpuHot": 100.53,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "dc9dceb2b6ee",
+            "date": "2023-06-30T00:00:00",
+            "deviationPercent": 11.98,
+            "itpCold": 110.8,
+            "odpuHot": 99.6,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 41.7,
+        "medianDeviation": 8.3,
+        "averageDeviation": 9.0
+      }
+    },
+    "MKD-001:2024": {
+      "summary": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 133.67,
+        "maxDeviation": 19.19,
+        "anomalyRate": 91.7,
+        "anomalyCount": 11,
+        "supplyRatio": 0.849,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1706659200000,
+          1709164800000,
+          1711843200000,
+          1714435200000,
+          1717113600000,
+          1719705600000,
+          1722384000000,
+          1725062400000,
+          1727654400000,
+          1730332800000,
+          1732924800000,
+          1735603200000
+        ],
+        "itpCold": [
+          121.19,
+          123.7,
+          127.68,
+          129.6,
+          130.0,
+          124.37,
+          121.0,
+          113.25,
+          110.27,
+          110.89,
+          112.01,
+          118.66
+        ],
+        "odpuHot": [
+          104.86,
+          100.71,
+          104.17,
+          104.21,
+          105.93,
+          103.57,
+          105.26,
+          95.06,
+          104.6,
+          97.16,
+          97.7,
+          100.93
+        ],
+        "deviationPercent": [
+          12.75,
+          16.95,
+          19.19,
+          18.78,
+          17.34,
+          16.23,
+          13.35,
+          15.43,
+          8.79,
+          11.57,
+          12.92,
+          16.08
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.85,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.9
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 18.0
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 19.2
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.8,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.9
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 34.1
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 9.6
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.67,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.9
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 16.1
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 8.7
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.59,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 13.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.9
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 28.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 16.8
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "itpId": "ITP-101",
+        "odpuId": "ODPU-501",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "anomalies": [
+          {
+            "id": "05ebcd8d047f",
+            "date": "2024-01-31T00:00:00",
+            "deviationPercent": 12.75,
+            "itpCold": 121.19,
+            "odpuHot": 104.86,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "33791710612b",
+            "date": "2024-02-29T00:00:00",
+            "deviationPercent": 16.95,
+            "itpCold": 123.7,
+            "odpuHot": 100.71,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "6da78f36508a",
+            "date": "2024-03-31T00:00:00",
+            "deviationPercent": 19.19,
+            "itpCold": 127.68,
+            "odpuHot": 104.17,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "b5bac14e48a0",
+            "date": "2024-04-30T00:00:00",
+            "deviationPercent": 18.78,
+            "itpCold": 129.6,
+            "odpuHot": 104.21,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "090d9ae68ed8",
+            "date": "2024-05-31T00:00:00",
+            "deviationPercent": 17.34,
+            "itpCold": 130.0,
+            "odpuHot": 105.93,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "528b02bee15a",
+            "date": "2024-06-30T00:00:00",
+            "deviationPercent": 16.23,
+            "itpCold": 124.37,
+            "odpuHot": 103.57,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "3a733449f6e5",
+            "date": "2024-07-31T00:00:00",
+            "deviationPercent": 13.35,
+            "itpCold": 121.0,
+            "odpuHot": 105.26,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "aa505afd1240",
+            "date": "2024-08-31T00:00:00",
+            "deviationPercent": 15.43,
+            "itpCold": 113.25,
+            "odpuHot": 95.06,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "14dc39b61c82",
+            "date": "2024-10-31T00:00:00",
+            "deviationPercent": 11.57,
+            "itpCold": 110.89,
+            "odpuHot": 97.16,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "19b38a152eb7",
+            "date": "2024-11-30T00:00:00",
+            "deviationPercent": 12.92,
+            "itpCold": 112.01,
+            "odpuHot": 97.7,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "a23384290fc3",
+            "date": "2024-12-31T00:00:00",
+            "deviationPercent": 16.08,
+            "itpCold": 118.66,
+            "odpuHot": 100.93,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 91.7,
+        "medianDeviation": 15.8,
+        "averageDeviation": 14.9
+      }
+    },
+    "MKD-003:2024": {
+      "summary": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 113.44,
+        "maxDeviation": 16.49,
+        "anomalyRate": 66.7,
+        "anomalyCount": 8,
+        "supplyRatio": 0.867,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1706659200000,
+          1709164800000,
+          1711843200000,
+          1714435200000,
+          1717113600000,
+          1719705600000,
+          1722384000000,
+          1725062400000,
+          1727654400000,
+          1730332800000,
+          1732924800000,
+          1735603200000
+        ],
+        "itpCold": [
+          129.09,
+          132.5,
+          137.25,
+          135.76,
+          135.67,
+          132.0,
+          124.56,
+          120.63,
+          120.16,
+          117.65,
+          119.91,
+          124.45
+        ],
+        "odpuHot": [
+          113.29,
+          111.61,
+          114.7,
+          112.83,
+          109.39,
+          111.56,
+          109.5,
+          111.58,
+          109.17,
+          101.62,
+          110.15,
+          110.72
+        ],
+        "deviationPercent": [
+          11.95,
+          13.38,
+          16.49,
+          16.22,
+          14.66,
+          14.54,
+          12.66,
+          7.6,
+          10.14,
+          9.95,
+          7.85,
+          9.54
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.79,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 9.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 86.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 34.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 2.9
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.74,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 9.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 86.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 26.9
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 10.3
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.68,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 9.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 86.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 23.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 23.2
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.58,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 9.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 86.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 26.5
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 24.5
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "itpId": "ITP-303",
+        "odpuId": "ODPU-503",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "anomalies": [
+          {
+            "id": "544bbe1e083c",
+            "date": "2024-01-31T00:00:00",
+            "deviationPercent": 11.95,
+            "itpCold": 129.09,
+            "odpuHot": 113.29,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "efec7b23b5b9",
+            "date": "2024-02-29T00:00:00",
+            "deviationPercent": 13.38,
+            "itpCold": 132.5,
+            "odpuHot": 111.61,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "0a594ff210ed",
+            "date": "2024-03-31T00:00:00",
+            "deviationPercent": 16.49,
+            "itpCold": 137.25,
+            "odpuHot": 114.7,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "34674b6b30cc",
+            "date": "2024-04-30T00:00:00",
+            "deviationPercent": 16.22,
+            "itpCold": 135.76,
+            "odpuHot": 112.83,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "2075236eb856",
+            "date": "2024-05-31T00:00:00",
+            "deviationPercent": 14.66,
+            "itpCold": 135.67,
+            "odpuHot": 109.39,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "a3dbc67e8ed5",
+            "date": "2024-06-30T00:00:00",
+            "deviationPercent": 14.54,
+            "itpCold": 132.0,
+            "odpuHot": 111.56,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "7d4cddfe9d4c",
+            "date": "2024-07-31T00:00:00",
+            "deviationPercent": 12.66,
+            "itpCold": 124.56,
+            "odpuHot": 109.5,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "955a74d432b5",
+            "date": "2024-09-30T00:00:00",
+            "deviationPercent": 10.14,
+            "itpCold": 120.16,
+            "odpuHot": 109.17,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 66.7,
+        "medianDeviation": 12.3,
+        "averageDeviation": 12.1
+      }
+    },
+    "MKD-002:2024": {
+      "summary": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 94.64,
+        "maxDeviation": 15.66,
+        "anomalyRate": 41.7,
+        "anomalyCount": 5,
+        "supplyRatio": 0.906,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1706659200000,
+          1709164800000,
+          1711843200000,
+          1714435200000,
+          1717113600000,
+          1719705600000,
+          1722384000000,
+          1725062400000,
+          1727654400000,
+          1730332800000,
+          1732924800000,
+          1735603200000
+        ],
+        "itpCold": [
+          112.55,
+          116.71,
+          117.0,
+          120.39,
+          117.95,
+          114.14,
+          109.05,
+          109.12,
+          102.14,
+          101.86,
+          98.27,
+          105.4
+        ],
+        "odpuHot": [
+          100.03,
+          99.15,
+          101.39,
+          107.16,
+          102.42,
+          104.26,
+          96.82,
+          106.8,
+          97.06,
+          93.51,
+          95.21,
+          96.01
+        ],
+        "deviationPercent": [
+          9.81,
+          11.7,
+          13.14,
+          13.61,
+          15.66,
+          11.05,
+          9.94,
+          6.56,
+          5.8,
+          7.97,
+          5.48,
+          8.95
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.82,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 7.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 22.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 12.6
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.73,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 7.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 23.3
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 20.4
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.62,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 7.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 32.3
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 9.7
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.55,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 7.5
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 7.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 4.0
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "itpId": "ITP-202",
+        "odpuId": "ODPU-502",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "anomalies": [
+          {
+            "id": "0e853f172580",
+            "date": "2024-02-29T00:00:00",
+            "deviationPercent": 11.7,
+            "itpCold": 116.71,
+            "odpuHot": 99.15,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "fb8d8d22229d",
+            "date": "2024-03-31T00:00:00",
+            "deviationPercent": 13.14,
+            "itpCold": 117.0,
+            "odpuHot": 101.39,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "673e96d03189",
+            "date": "2024-04-30T00:00:00",
+            "deviationPercent": 13.61,
+            "itpCold": 120.39,
+            "odpuHot": 107.16,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "e8ef1f7f8fec",
+            "date": "2024-05-31T00:00:00",
+            "deviationPercent": 15.66,
+            "itpCold": 117.95,
+            "odpuHot": 102.42,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "58dac3141b26",
+            "date": "2024-06-30T00:00:00",
+            "deviationPercent": 11.05,
+            "itpCold": 114.14,
+            "odpuHot": 104.26,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 41.7,
+        "medianDeviation": 9.9,
+        "averageDeviation": 10.0
+      }
+    },
+    "MKD-001:2025": {
+      "summary": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "itpId": "ITP-101",
+        "itpName": "ИТП Центральный 1",
+        "itpLat": 55.7565,
+        "itpLon": 37.6201,
+        "odpuId": "ODPU-501",
+        "district": "ЦАО",
+        "riskIndex": 143.4,
+        "maxDeviation": 22.39,
+        "anomalyRate": 100.0,
+        "anomalyCount": 12,
+        "supplyRatio": 0.837,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1738281600000,
+          1740700800000,
+          1743379200000,
+          1745971200000,
+          1748649600000,
+          1751241600000,
+          1753920000000,
+          1756598400000,
+          1759190400000,
+          1761868800000,
+          1764460800000,
+          1767139200000
+        ],
+        "itpCold": [
+          120.94,
+          125.67,
+          125.69,
+          130.04,
+          131.39,
+          126.54,
+          122.79,
+          116.64,
+          113.69,
+          110.42,
+          112.97,
+          115.24
+        ],
+        "odpuHot": [
+          101.94,
+          103.23,
+          96.24,
+          104.83,
+          106.51,
+          107.55,
+          103.33,
+          98.86,
+          97.78,
+          96.66,
+          98.4,
+          99.45
+        ],
+        "deviationPercent": [
+          16.98,
+          19.23,
+          22.39,
+          20.41,
+          18.71,
+          17.29,
+          16.3,
+          13.73,
+          16.36,
+          11.27,
+          13.37,
+          13.66
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.85,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 12.8
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 83.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 16.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 15.4
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.75,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 12.8
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 83.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 11.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 8.0
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.66,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 12.8
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 83.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 19.2
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 14.0
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.65,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 12.8
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 83.7
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 34.3
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 11.0
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-001",
+        "mkdAddress": "г. Москва, ул. Пушкина, д. 10",
+        "itpId": "ITP-101",
+        "odpuId": "ODPU-501",
+        "mkdLat": 55.7558,
+        "mkdLon": 37.6176,
+        "anomalies": [
+          {
+            "id": "26261ae41508",
+            "date": "2025-01-31T00:00:00",
+            "deviationPercent": 16.98,
+            "itpCold": 120.94,
+            "odpuHot": 101.94,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "807f328a5b35",
+            "date": "2025-02-28T00:00:00",
+            "deviationPercent": 19.23,
+            "itpCold": 125.67,
+            "odpuHot": 103.23,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8ec1242293b0",
+            "date": "2025-03-31T00:00:00",
+            "deviationPercent": 22.39,
+            "itpCold": 125.69,
+            "odpuHot": 96.24,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "4050a9f1148d",
+            "date": "2025-04-30T00:00:00",
+            "deviationPercent": 20.41,
+            "itpCold": 130.04,
+            "odpuHot": 104.83,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8112c15025b9",
+            "date": "2025-05-31T00:00:00",
+            "deviationPercent": 18.71,
+            "itpCold": 131.39,
+            "odpuHot": 106.51,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "2c7f4addd443",
+            "date": "2025-06-30T00:00:00",
+            "deviationPercent": 17.29,
+            "itpCold": 126.54,
+            "odpuHot": 107.55,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "2f632a4c181f",
+            "date": "2025-07-31T00:00:00",
+            "deviationPercent": 16.3,
+            "itpCold": 122.79,
+            "odpuHot": 103.33,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "3ba8110e1714",
+            "date": "2025-08-31T00:00:00",
+            "deviationPercent": 13.73,
+            "itpCold": 116.64,
+            "odpuHot": 98.86,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "3872a3cc0f95",
+            "date": "2025-09-30T00:00:00",
+            "deviationPercent": 16.36,
+            "itpCold": 113.69,
+            "odpuHot": 97.78,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "23ab8008f498",
+            "date": "2025-10-31T00:00:00",
+            "deviationPercent": 11.27,
+            "itpCold": 110.42,
+            "odpuHot": 96.66,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "c158985c03f8",
+            "date": "2025-11-30T00:00:00",
+            "deviationPercent": 13.37,
+            "itpCold": 112.97,
+            "odpuHot": 98.4,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "b365fd60ce0d",
+            "date": "2025-12-31T00:00:00",
+            "deviationPercent": 13.66,
+            "itpCold": 115.24,
+            "odpuHot": 99.45,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 100.0,
+        "medianDeviation": 16.7,
+        "averageDeviation": 16.6
+      }
+    },
+    "MKD-003:2025": {
+      "summary": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "itpId": "ITP-303",
+        "itpName": "ИТП Аэропорт",
+        "itpLat": 55.809,
+        "itpLon": 37.518,
+        "odpuId": "ODPU-503",
+        "district": "САО",
+        "riskIndex": 135.56,
+        "maxDeviation": 20.7,
+        "anomalyRate": 91.7,
+        "anomalyCount": 11,
+        "supplyRatio": 0.846,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1738281600000,
+          1740700800000,
+          1743379200000,
+          1745971200000,
+          1748649600000,
+          1751241600000,
+          1753920000000,
+          1756598400000,
+          1759190400000,
+          1761868800000,
+          1764460800000,
+          1767139200000
+        ],
+        "itpCold": [
+          128.31,
+          135.06,
+          136.49,
+          139.64,
+          139.25,
+          135.0,
+          126.84,
+          124.56,
+          122.03,
+          119.31,
+          121.67,
+          124.45
+        ],
+        "odpuHot": [
+          109.71,
+          113.6,
+          107.74,
+          112.28,
+          111.85,
+          111.65,
+          108.46,
+          112.32,
+          104.72,
+          103.11,
+          107.78,
+          111.01
+        ],
+        "deviationPercent": [
+          12.77,
+          15.63,
+          20.7,
+          16.38,
+          18.49,
+          15.43,
+          13.65,
+          9.57,
+          10.53,
+          11.81,
+          10.06,
+          11.56
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.87,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 11.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 17.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 15.6
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.77,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 11.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 23.5
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 11.4
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.69,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 11.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 25.8
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 17.6
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.62,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 11.1
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 84.6
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 32.7
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 10.6
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-003",
+        "mkdAddress": "г. Москва, Ленинградский пр-т, д. 80",
+        "itpId": "ITP-303",
+        "odpuId": "ODPU-503",
+        "mkdLat": 55.8081,
+        "mkdLon": 37.5146,
+        "anomalies": [
+          {
+            "id": "6253f221e72a",
+            "date": "2025-01-31T00:00:00",
+            "deviationPercent": 12.77,
+            "itpCold": 128.31,
+            "odpuHot": 109.71,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "913867ab59cd",
+            "date": "2025-02-28T00:00:00",
+            "deviationPercent": 15.63,
+            "itpCold": 135.06,
+            "odpuHot": 113.6,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "7819b9ec37a7",
+            "date": "2025-03-31T00:00:00",
+            "deviationPercent": 20.7,
+            "itpCold": 136.49,
+            "odpuHot": 107.74,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "a39d5197b649",
+            "date": "2025-04-30T00:00:00",
+            "deviationPercent": 16.38,
+            "itpCold": 139.64,
+            "odpuHot": 112.28,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "ec8c0007d7b4",
+            "date": "2025-05-31T00:00:00",
+            "deviationPercent": 18.49,
+            "itpCold": 139.25,
+            "odpuHot": 111.85,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "b007531004cd",
+            "date": "2025-06-30T00:00:00",
+            "deviationPercent": 15.43,
+            "itpCold": 135.0,
+            "odpuHot": 111.65,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "4c7b4b1665ce",
+            "date": "2025-07-31T00:00:00",
+            "deviationPercent": 13.65,
+            "itpCold": 126.84,
+            "odpuHot": 108.46,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "735bea5f6673",
+            "date": "2025-09-30T00:00:00",
+            "deviationPercent": 10.53,
+            "itpCold": 122.03,
+            "odpuHot": 104.72,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "76f2d33b4931",
+            "date": "2025-10-31T00:00:00",
+            "deviationPercent": 11.81,
+            "itpCold": 119.31,
+            "odpuHot": 103.11,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8e0808ffb4e4",
+            "date": "2025-11-30T00:00:00",
+            "deviationPercent": 10.06,
+            "itpCold": 121.67,
+            "odpuHot": 107.78,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "a0aaf7fa99c1",
+            "date": "2025-12-31T00:00:00",
+            "deviationPercent": 11.56,
+            "itpCold": 124.45,
+            "odpuHot": 111.01,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 91.7,
+        "medianDeviation": 13.2,
+        "averageDeviation": 13.9
+      }
+    },
+    "MKD-002:2025": {
+      "summary": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "itpId": "ITP-202",
+        "itpName": "ИТП Юго-Запад",
+        "itpLat": 55.6781,
+        "itpLon": 37.5099,
+        "odpuId": "ODPU-502",
+        "district": "ЗАО",
+        "riskIndex": 103.75,
+        "maxDeviation": 14.14,
+        "anomalyRate": 58.3,
+        "anomalyCount": 7,
+        "supplyRatio": 0.903,
+        "updatedAt": "2025-10-19T15:12:40Z"
+      },
+      "telemetry": {
+        "labels": [
+          1738281600000,
+          1740700800000,
+          1743379200000,
+          1745971200000,
+          1748649600000,
+          1751241600000,
+          1753920000000,
+          1756598400000,
+          1759190400000,
+          1761868800000,
+          1764460800000,
+          1767139200000
+        ],
+        "itpCold": [
+          113.22,
+          115.9,
+          120.55,
+          120.14,
+          118.92,
+          116.28,
+          112.4,
+          107.41,
+          106.97,
+          103.08,
+          101.25,
+          106.2
+        ],
+        "odpuHot": [
+          97.48,
+          103.79,
+          105.44,
+          104.06,
+          107.81,
+          99.17,
+          96.93,
+          100.74,
+          103.41,
+          94.27,
+          96.59,
+          102.98
+        ],
+        "deviationPercent": [
+          13.99,
+          10.2,
+          13.11,
+          13.34,
+          13.71,
+          14.14,
+          10.56,
+          6.6,
+          7.2,
+          9.27,
+          8.08,
+          8.49
+        ]
+      },
+      "recommendations": [
+        {
+          "code": "inspection",
+          "description": "Назначить обход по стоякам",
+          "confidence": 0.81,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.6
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 27.3
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 2.8
+            }
+          ]
+        },
+        {
+          "code": "communication",
+          "description": "Проверить связь УСПД",
+          "confidence": 0.7,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.6
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 23.2
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 6.1
+            }
+          ]
+        },
+        {
+          "code": "hydraulics",
+          "description": "Снять контрольные показания давления",
+          "confidence": 0.64,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.6
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 11.4
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 22.4
+            }
+          ]
+        },
+        {
+          "code": "metering",
+          "description": "Сверить ОДПУ и квартирные счетчики",
+          "confidence": 0.58,
+          "factors": [
+            {
+              "id": "deviation_trend",
+              "label": "Тренд отклонений",
+              "impact": 8.6
+            },
+            {
+              "id": "supply_ratio",
+              "label": "Баланс подачи",
+              "impact": 90.3
+            },
+            {
+              "id": "dispatcher_feedback",
+              "label": "История подтверждений",
+              "impact": 6.1
+            },
+            {
+              "id": "weather_context",
+              "label": "Погодные факторы",
+              "impact": 4.3
+            }
+          ]
+        }
+      ],
+      "analytics": {
+        "mkdId": "MKD-002",
+        "mkdAddress": "г. Москва, пр-т Вернадского, д. 45",
+        "itpId": "ITP-202",
+        "odpuId": "ODPU-502",
+        "mkdLat": 55.6763,
+        "mkdLon": 37.5064,
+        "anomalies": [
+          {
+            "id": "d3728c49ea98",
+            "date": "2025-01-31T00:00:00",
+            "deviationPercent": 13.99,
+            "itpCold": 113.22,
+            "odpuHot": 97.48,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "994db8be990b",
+            "date": "2025-02-28T00:00:00",
+            "deviationPercent": 10.2,
+            "itpCold": 115.9,
+            "odpuHot": 103.79,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "72c2de3eb7b8",
+            "date": "2025-03-31T00:00:00",
+            "deviationPercent": 13.11,
+            "itpCold": 120.55,
+            "odpuHot": 105.44,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "821e9b7abe0e",
+            "date": "2025-04-30T00:00:00",
+            "deviationPercent": 13.34,
+            "itpCold": 120.14,
+            "odpuHot": 104.06,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "2f0c9638d48d",
+            "date": "2025-05-31T00:00:00",
+            "deviationPercent": 13.71,
+            "itpCold": 118.92,
+            "odpuHot": 107.81,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "a0cfbc01ad9d",
+            "date": "2025-06-30T00:00:00",
+            "deviationPercent": 14.14,
+            "itpCold": 116.28,
+            "odpuHot": 99.17,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          },
+          {
+            "id": "8f7574b9a553",
+            "date": "2025-07-31T00:00:00",
+            "deviationPercent": 10.56,
+            "itpCold": 112.4,
+            "odpuHot": 96.93,
+            "status": "unreviewed",
+            "comment": null,
+            "updatedAt": null
+          }
+        ],
+        "factorCatalog": [
+          {
+            "id": "deviation_trend",
+            "label": "Тренд отклонений",
+            "description": "Изменение разницы между ИТП и ОДПУ за последние периоды"
+          },
+          {
+            "id": "supply_ratio",
+            "label": "Баланс подачи",
+            "description": "Соотношение объемов подачи холодной и горячей воды"
+          },
+          {
+            "id": "dispatcher_feedback",
+            "label": "История подтверждений",
+            "description": "Последние действия диспетчеров по аналогичным инцидентам"
+          },
+          {
+            "id": "weather_context",
+            "label": "Погодные факторы",
+            "description": "Температура и осадки, влияющие на потребление"
+          }
+        ],
+        "anomalyShare": 58.3,
+        "medianDeviation": 10.4,
+        "averageDeviation": 10.7
+      }
+    }
+  }
+}
