@@ -1,6 +1,7 @@
 # HydroPulse Insight
 
 HydroPulse Insight — двуэкранный портал диспетчера Mosvodokanal: классическая панель МКД с рекомендациями и вкладка Geo Intelligence с гексагонами и CatBoost-прогнозом.
+Сервис развёрнут и доступен по адресу https://lcthack.vercel.app/. Если возникнут проблемы - попробуйте включить ВПН.
 
 ## Быстрый старт
 
